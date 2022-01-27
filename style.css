@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.banner{
+    background-image: url(./Images/pexels-sam-forson-154243.jpg);
+    height: 999px;
+    width: 100%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.banner-color{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.banner-innertext{
+    /* height: 200px; */
+    width: 60%;
+    /* background-color: red; */
+    margin-left: 20%;
+    margin-top: 200px;
+    display: inline-block;
+    text-align: center;
+    color: white;  
+}
+
+.padd{
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.padd1{
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text{
+    word-spacing: 2px;    
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.banner-img{
+    margin-top: 50px;
+    /* height: 300px; */
+    /* background-color: red; */
+    width: 70%;
+    margin-left: 15%;
+}
+
+.banner-container{
+    width: 22%;
+    /* height: 300px; */
+    /* background-color: turquoise; */
+    display: inline-block;
+    margin-right: 28px;
+}
+
+
+.image{
+    /* background-color: blue; */
+    height: 150px;
+    display: inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.img{
+    width: 100%;
+}
+
+
+.image-details{
+    margin-top: 15px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.details{
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 2px; 
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
